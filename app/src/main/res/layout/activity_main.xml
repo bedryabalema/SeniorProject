@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background= "#FFFF00"
+    tools:context="com.example.android.sfwhf1.Main">
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="#AAFF00"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:id="@+id/buttonDailyVital"
+            android:fontFamily="sans-serif-medium"
+            android:text="Daily Vital"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:background="#AAFF00"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:id="@+id/buttonIntakes"
+            android:fontFamily="sans-serif-medium"
+            android:text="Intakes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:background="#AAFF00"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:id="@+id/buttonWorkout"
+            android:fontFamily="sans-serif-medium"
+            android:text="Workout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:background="#AAFF00"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:id="@+id/buttonLocation"
+            android:fontFamily="sans-serif-medium"
+            android:text="Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:background="#AAFF00"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:id="@+id/buttonGame"
+            android:fontFamily="sans-serif-medium"
+            android:text="Game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:background="#AAFF00"
+            android:layout_margin="10dp"
+            android:textSize="25dp"
+            android:id="@+id/buttonUserProfile"
+            android:fontFamily="sans-serif-medium"
+            android:text="Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_margin="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Sign out"
+            android:id="@+id/textViewSignout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>
